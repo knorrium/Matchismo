@@ -24,6 +24,7 @@
 		7F46E9C616BD865000B1BBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F46E9C416BD865000B1BBDB /* InfoPlist.strings */; };
 		7F46E9C916BD865100B1BBDB /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9C816BD865100B1BBDB /* MatchismoTests.m */; };
 		7F46E9D516BD90A100B1BBDB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9D416BD90A100B1BBDB /* Card.m */; };
+		7F46E9D816BD911B00B1BBDB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9D716BD911B00B1BBDB /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		7F46E9C816BD865100B1BBDB /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		7F46E9D316BD90A100B1BBDB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		7F46E9D416BD90A100B1BBDB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		7F46E9D616BD911B00B1BBDB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		7F46E9D716BD911B00B1BBDB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 			children = (
 				7F46E9D316BD90A100B1BBDB /* Card.h */,
 				7F46E9D416BD90A100B1BBDB /* Card.m */,
+				7F46E9D616BD911B00B1BBDB /* Deck.h */,
+				7F46E9D716BD911B00B1BBDB /* Deck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				7F46E9A816BD864B00B1BBDB /* CardGameAppDelegate.m in Sources */,
 				7F46E9B416BD864C00B1BBDB /* CardGameViewController.m in Sources */,
 				7F46E9D516BD90A100B1BBDB /* Card.m in Sources */,
+				7F46E9D816BD911B00B1BBDB /* Deck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
