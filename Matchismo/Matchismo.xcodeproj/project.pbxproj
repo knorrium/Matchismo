@@ -25,6 +25,7 @@
 		7F46E9C916BD865100B1BBDB /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9C816BD865100B1BBDB /* MatchismoTests.m */; };
 		7F46E9D516BD90A100B1BBDB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9D416BD90A100B1BBDB /* Card.m */; };
 		7F46E9D816BD911B00B1BBDB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9D716BD911B00B1BBDB /* Deck.m */; };
+		7F46E9DB16BD917500B1BBDB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46E9DA16BD917500B1BBDB /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		7F46E9D416BD90A100B1BBDB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		7F46E9D616BD911B00B1BBDB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		7F46E9D716BD911B00B1BBDB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		7F46E9D916BD917500B1BBDB /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		7F46E9DA16BD917500B1BBDB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				7F46E9D416BD90A100B1BBDB /* Card.m */,
 				7F46E9D616BD911B00B1BBDB /* Deck.h */,
 				7F46E9D716BD911B00B1BBDB /* Deck.m */,
+				7F46E9D916BD917500B1BBDB /* PlayingCard.h */,
+				7F46E9DA16BD917500B1BBDB /* PlayingCard.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				7F46E9B416BD864C00B1BBDB /* CardGameViewController.m in Sources */,
 				7F46E9D516BD90A100B1BBDB /* Card.m in Sources */,
 				7F46E9D816BD911B00B1BBDB /* Deck.m in Sources */,
+				7F46E9DB16BD917500B1BBDB /* PlayingCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
